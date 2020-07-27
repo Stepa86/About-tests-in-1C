@@ -1,0 +1,76 @@
+site_name: Материалы по тестированию в 1С
+site_url: https://stepa86.github.io/About-tests-in-1C/
+
+theme:
+  name: 'material'
+  logo: 'assets/images/logo.png'
+  favicon: 'assets/images/favicon.ico'
+  language: ru
+  palette:
+    scheme: preference
+    primary: 'black'
+    accent: 'blue'
+  font:
+    text: 'Roboto'
+    code: 'Roboto Mono'
+  features:
+    - tabs
+  include_search_page: false
+  search_index_only: true
+
+repo_name: 'Stepa86/About-tests-in-1C'
+repo_url: https://github.com/Stepa86/About-tests-in-1C
+
+markdown_extensions:
+    - markdown.extensions.toc:
+        permalink: true
+    - markdown.extensions.admonition
+    - markdown.extensions.attr_list
+    - markdown.extensions.codehilite:
+        linenums: true
+    - pymdownx.arithmatex
+    - pymdownx.betterem:
+        smart_enable: all
+    - pymdownx.caret
+    - pymdownx.critic
+    - pymdownx.details
+    - pymdownx.emoji:
+        emoji_index: !!python/name:pymdownx.emoji.twemoji
+        emoji_generator: !!python/name:pymdownx.emoji.to_svg
+    - pymdownx.inlinehilite
+    - pymdownx.keys
+    - pymdownx.magiclink
+    - pymdownx.mark
+    - pymdownx.smartsymbols
+    - pymdownx.superfences
+    - pymdownx.tasklist:
+        custom_checkbox: true
+        clickable_checkbox: true
+    - pymdownx.tilde
+    - markdown.extensions.def_list
+    - markdown.extensions.footnotes
+    - markdown.extensions.meta
+    - pymdownx.snippets:
+        check_paths: true
+    - pymdownx.tabbed
+
+plugins:
+  - search:
+      separator: '[\s\-\.]+'
+      lang:
+        - en
+        - ru
+  - git-revision-date-localized:
+      fallback_to_build_date: true
+  - awesome-pages:
+      collapse_single_pages: false
+  - minify:
+      minify_html: true
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: 'https://github.com/Stepa86/About-tests-in-1C'
+extra_css:
+    - assets/css/custom.css
+

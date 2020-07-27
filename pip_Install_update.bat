@@ -1,0 +1,1 @@
+pip install --upgrade mkdocs mkdocs-material pygments-bsl pymdown-extensions mkdocs-minify-plugin mkdocs-awesome-pages-plugin mkdocs-git-revision-date-localized-plugin

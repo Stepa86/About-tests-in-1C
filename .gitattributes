@@ -1,0 +1,63 @@
+﻿# Binary file extensions that should not be modified.
+
+# 1с
+*.bin   filter=lfs diff=lfs merge=lfs -text
+*.axdt  filter=lfs diff=lfs merge=lfs -text
+*.addin filter=lfs diff=lfs merge=lfs -text
+*.cf    filter=lfs diff=lfs merge=lfs -text
+*.cfe   filter=lfs diff=lfs merge=lfs -text
+*.cfu   filter=lfs diff=lfs merge=lfs -text
+*.dt    filter=lfs diff=lfs merge=lfs -text
+*.ospx  filter=lfs diff=lfs merge=lfs -text
+*.epf   filter=lfs diff=lfs merge=lfs -text
+*.erf   filter=lfs diff=lfs merge=lfs -text
+
+*.st    text
+
+# Documents
+*.doc  filter=lfs diff=lfs merge=lfs -text
+*.DOC  filter=lfs diff=lfs merge=lfs -text
+*.docx filter=lfs diff=lfs merge=lfs -text
+*.DOCX filter=lfs diff=lfs merge=lfs -text
+*.ppt  filter=lfs diff=lfs merge=lfs -text
+*.PPT  filter=lfs diff=lfs merge=lfs -text
+*.pptx filter=lfs diff=lfs merge=lfs -text
+*.PPTX filter=lfs diff=lfs merge=lfs -text
+*.xls  filter=lfs diff=lfs merge=lfs -text
+*.XLS  filter=lfs diff=lfs merge=lfs -text
+*.xlsx filter=lfs diff=lfs merge=lfs -text
+*.XLSX filter=lfs diff=lfs merge=lfs -text
+*.dot  filter=lfs diff=lfs merge=lfs -text
+*.DOT  filter=lfs diff=lfs merge=lfs -text
+*.pdf  filter=lfs diff=lfs merge=lfs -text
+*.PDF  filter=lfs diff=lfs merge=lfs -text
+*.rtf  filter=lfs diff=lfs merge=lfs -text
+*.RTF  filter=lfs diff=lfs merge=lfs -text
+*.tex  filter=lfs diff=lfs merge=lfs -text
+*.adoc filter=lfs diff=lfs merge=lfs -text
+
+*.csv      text
+*.tab      text
+*.tsv      text
+*.txt      text
+*.sql      text
+
+# Graphics
+*.bmp      filter=lfs diff=lfs merge=lfs -text
+*.png      filter=lfs diff=lfs merge=lfs -text
+*.jpg      filter=lfs diff=lfs merge=lfs -text
+*.jpeg     filter=lfs diff=lfs merge=lfs -text
+*.gif      filter=lfs diff=lfs merge=lfs -text
+*.tif      filter=lfs diff=lfs merge=lfs -text
+*.tiff     filter=lfs diff=lfs merge=lfs -text
+*.ico      filter=lfs diff=lfs merge=lfs -text
+*.eps      filter=lfs diff=lfs merge=lfs -text
+
+*.svg      text
+
+# Archives
+*.7z       filter=lfs diff=lfs merge=lfs -text
+*.gz       filter=lfs diff=lfs merge=lfs -text
+*.tar      filter=lfs diff=lfs merge=lfs -text
+*.zip      filter=lfs diff=lfs merge=lfs -text
+*.rar      filter=lfs diff=lfs merge=lfs -text
