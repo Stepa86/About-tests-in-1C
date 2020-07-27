@@ -11,27 +11,28 @@ jobs:
   build-deploy:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v1
+    - uses: actions/checkout@v2
+      with:
+        fetch-depth: 0
 
     - name: Set up Python
       uses: actions/setup-python@v1
       with:
-        python-version: '3.6'
+        python-version: '3.8'
         architecture: 'x64'
 
     - name: Install dependencies
       run: |
         pip install --upgrade pip
-        pip install --upgrade mkdocs mkdocs-material pygments-bsl pymdown-extensions mkdocs-minify-plugin mkdocs-awesome-pages-plugin mkdocs-git-revision-date-localized-plugin
+        pip install mkdocs mkdocs mkdocs-material pygments-bsl pymdown-extensions mkdocs-minify-plugin mkdocs-awesome-pages-plugin mkdocs-git-revision-date-localized-plugin
     
     - name: Build
       run: |
-        mkdocs gh-deploy --force
-        mkdocs --version
+        mkdocs build
     
     - name: Public
       run: |
-        cp -R temp/site/. public
+        cp -R site/. public
     
     - name: Clean temp
       run: rm -rf temp
