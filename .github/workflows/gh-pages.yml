@@ -22,7 +22,7 @@ jobs:
     - name: Install dependencies
       run: |
         pip install --upgrade pip
-        pip install mkdocs mkdocs-material pymdown-extensions mkdocs-awesome-pages-plugin pygments-bsl
+        pip install --upgrade mkdocs mkdocs-material pygments-bsl pymdown-extensions mkdocs-minify-plugin mkdocs-awesome-pages-plugin mkdocs-git-revision-date-localized-plugin
     
     - name: Build
       run: |
