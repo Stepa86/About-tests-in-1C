@@ -2,4 +2,5 @@ arrange:
     - index.md
     - BDD
     - pipeline
+    - coverage
     - ...
