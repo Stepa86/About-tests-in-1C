@@ -1,3 +1,5 @@
 arrange:
     - index.md
+    - BDD
+    - pipeline
     - ...
