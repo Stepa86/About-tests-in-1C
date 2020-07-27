@@ -3,8 +3,8 @@ site_url: https://stepa86.github.io/About-tests-in-1C/
 
 theme:
   name: 'material'
-  logo: 'assets/images/logo.png'
-  favicon: 'assets/images/favicon.ico'
+  logo: assets/images/logo.svg
+  favicon: assets/images/favicon.ico
   language: ru
   palette:
     scheme: default
