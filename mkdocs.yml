@@ -8,7 +8,7 @@ theme:
   language: ru
   palette:
     scheme: preference
-    primary: 'black'
+    primary: 'white'
     accent: 'blue'
   font:
     text: 'Roboto'
