@@ -7,8 +7,8 @@ theme:
   favicon: 'assets/images/favicon.ico'
   language: ru
   palette:
-    scheme: preference
-    primary: 'white'
+    scheme: default
+    primary: 'black'
     accent: 'blue'
   font:
     text: 'Roboto'
