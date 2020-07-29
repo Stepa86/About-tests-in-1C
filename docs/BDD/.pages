@@ -1,3 +1,4 @@
 title: BDD
 arrange:
     - index.md
+    - best_practices_of_tests.md
