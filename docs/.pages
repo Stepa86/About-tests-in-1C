@@ -2,5 +2,7 @@ arrange:
     - index.md
     - BDD
     - pipeline
+    - auto_video
+    - Integration_testing
     - coverage
     - ...
