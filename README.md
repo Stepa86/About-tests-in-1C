@@ -10,4 +10,4 @@
 
 ## Добавление статей
 
-- [Добавление новой статьи](https://stepa86.github.io/About-tests-in-1C/checklists/New_page.md)
+- [Добавление новой статьи](https://stepa86.github.io/About-tests-in-1C/Posts/New_page_checklist/)
