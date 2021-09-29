@@ -7,14 +7,18 @@ theme:
   favicon: assets/images/favicon.ico
   language: ru
   palette:
-    scheme: default
-    primary: 'black'
-    accent: 'blue'
+    primary: 'white'
+    accent: 'red'
   font:
     text: 'Roboto'
     code: 'Roboto Mono'
   features:
-    - tabs
+    - navigation.tabs
+    - search.highlight
+    - search.suggest
+    - search.share
+    - toc.integrate
+    - header.autohide
   include_search_page: false
   search_index_only: true
 
@@ -24,6 +28,8 @@ repo_url: https://github.com/Stepa86/About-tests-in-1C
 markdown_extensions:
     - markdown.extensions.toc:
         permalink: true
+        slugify: !!python/name:pymdownx.slugs.uslugify_cased
+        toc_depth: 3
     - markdown.extensions.admonition
     - markdown.extensions.attr_list
     - markdown.extensions.codehilite:
@@ -58,8 +64,8 @@ plugins:
   - search:
       separator: '[\s\-\.]+'
       lang:
-        - en
         - ru
+        - en
   - git-revision-date-localized:
       fallback_to_build_date: true
   - awesome-pages:
