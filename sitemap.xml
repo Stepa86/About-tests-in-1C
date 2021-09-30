@@ -21,6 +21,11 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://stepa86.github.io/About-tests-in-1C/BDD/best_practices/03_feature-file/</loc>
+         <lastmod>2021-09-30</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://stepa86.github.io/About-tests-in-1C/BDD/best_practices/best_practices_of_tests/</loc>
          <lastmod>2021-09-30</lastmod>
          <changefreq>daily</changefreq>
